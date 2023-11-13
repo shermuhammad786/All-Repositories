@@ -24,7 +24,6 @@
 }
 
 .bgc {
-    /* position: absolute;  */
     animation-name: bgc;
     animation-duration: 2s;
     animation-direction: alternate;
@@ -68,8 +67,6 @@
     font-size: 30px;
     text-align: center;
     overflow: unset;
-
-
 }
 
 #button {
