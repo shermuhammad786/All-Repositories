@@ -9,7 +9,7 @@ var randomNumebr = Math.floor(Math.random()*20+1)
 button.addEventListener("click",function (){
     if(input.value == randomNumebr){
         mainDiv.style.backgroundColor = "green";
-        start.innerHTML = "Congratulation You Win";
+        start.innerHTML = "Congratulations! You Win";
         qMark.innerHTML = randomNumebr;
         score.innerHTML = +score.innerHTML + 10;
         highscore.innerHTML = +highscore.innerHTML + +score.innerHTML
@@ -23,10 +23,5 @@ button.addEventListener("click",function (){
 })
 var again = document.getElementById("again");
 again.addEventListener("click",function(){
-    qMark.innerHTML = "?"
-    score.innerHTML = 0;
-    input.value = ""
-    mainDiv.style.backgroundColor = "black";
-    start.innerHTML = "Start Guessing..."
-    randomNumebr = Math.floor(Math.random()*21)
+    window.location.reload()
 })
