@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="modal.css">
+</head>
+
+<body onload="showQuestions(0)">
+
+    <div class="main">
+        <h3><span id="score"></span> Quiz Application <span id="time">120</span></h3>
+
+        <h1 id="Questions"></h1><br><br>
+        <div id="answers"><input id="input1" onclick="clickonit(this)" class="Score" name="Answers" type="radio">
+            <p class="opt"></p></input><input id="input2" onclick="clickonit(this)" class="Score" name="Answers"
+                type="radio">
+            <p class="opt"></p></input><br><br><input id="input3" onclick="clickonit(this)" class="Score" name="Answers"
+                type="radio">
+            <p class="opt"></p></input><input id="input4" onclick="clickonit(this)" class="Score" name="Answers"
+                type="radio">
+            <p class="opt"></p></input> <br><br>
+        </div>
+        <button id="btn" onclick="nextquestion()">
+            <h1 id="nextbtnn">NEXT</h1>
+            <h1 id="submit">SUBMIT</h1>
+        </button>
+    </div>
+    <div id="modal">
+        <h1 class="amin" id="showScore">This is demo of Modal</h1>
+        <button class="amin close" onclick="clos()">close</button>
+    </div>
+
+
+
+
+
+
+    <script src="quiz.js"></script>
+</body>
+
+</html>
+<!-- Weather app
+quiz app 
+todo app
+Social media app 
+192.168.0.106z
+-->

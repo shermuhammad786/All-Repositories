@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #84cce8;
+}
+input{
+    border:none;
+    border-bottom: 2px solid black;
+    width: 280px;
+    font-size: 25px;
+    outline: none;
+}
+div{
+    text-align: center;
+    margin-top: 25%;   
+}
+input:focus{
+    border-color: #84cce8;
+    
+}
+button{
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 30px;
+}
