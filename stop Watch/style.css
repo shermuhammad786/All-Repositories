@@ -1,0 +1,18 @@
+body{
+    background-image: url(./green.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+h1{
+    display: inline-block;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    width: 30px;
+    background-color: green;
+}
+.heading{
+    color: white;
+
+}
